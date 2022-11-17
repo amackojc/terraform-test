@@ -1,4 +1,4 @@
 resource "azurerm_resource_group" "resource_group" {
-  name     = "test-spacelift"
+  name     = "testing-spacelift"
   location = "West Europe"
 }
