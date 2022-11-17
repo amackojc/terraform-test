@@ -1,5 +1,5 @@
 resource "azurerm_virtual_network" "virtual_network" {
-  name                = "some-network"
+  name                = "example-network"
   address_space       = ["10.0.0.0/16"]
   resource_group_name = azurerm_resource_group.resource_group.name
   location            = azurerm_resource_group.resource_group.location
